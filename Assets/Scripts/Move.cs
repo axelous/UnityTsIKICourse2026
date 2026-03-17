@@ -89,7 +89,7 @@ public class Move : MonoBehaviour
             animator.SetFloat("Speed", currentSpeed);
             
             // 2. Jump - триггер для анимации прыжка
-            if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+            if (Input.GetKeyDown(KeyCode.C))
             {
                 animator.SetTrigger("Jump");
             }

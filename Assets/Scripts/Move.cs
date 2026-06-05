@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    public float speed = 5f; // Скорость передвижения
+    public float speed = 5f; // Скорость кала
     public float jumpForce = 8f; // Сила прыжка
 
     [SerializeField] private bool isJumping = false; // Флаг: в прыжке ли мы
